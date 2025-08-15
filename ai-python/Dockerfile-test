@@ -1,6 +1,5 @@
 # Start from the Python base image
-FROM pybase_image:latest
-
+FROM python:3.11-slim-bullseye
 # Set environment variables
 
 

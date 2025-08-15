@@ -1,5 +1,5 @@
 # Use an official lightweight Python image.
-FROM pybase_image:latest
+FROM python:3.11-slim-bullseye
 
 WORKDIR /app/ai-python
 # Copy the current directory contents into the container at /app

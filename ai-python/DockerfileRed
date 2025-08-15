@@ -1,6 +1,5 @@
 # Use an official lightweight Python image as a parent image
-FROM pybase_image:latest
-
+FROM python:3.11-slim-bullseye
 # Copy the current directory contents into the container at /app
 # Set the working directory in the container to /app
 

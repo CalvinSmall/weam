@@ -1,5 +1,5 @@
 # Use an official lightweight Python image.
-FROM pybase_image:latest
+FROM python:3.11-slim-bullseye
 
 # COPY ray_connection.sh /usr/local/bin/
 # RUN chmod +x /usr/local/bin/ray_connection.sh

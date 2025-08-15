@@ -12,7 +12,7 @@ services:
       timeout: 5s
       retries: 5
   app:
-    image: weamai-app:latest
+    #image: weamai-app:latest
     container_name: weam-frontend-container
     ports:
       - "3000:3000"
